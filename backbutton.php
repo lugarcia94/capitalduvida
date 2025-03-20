@@ -1,0 +1,1 @@
+<a class="backbutton" href="/"><img src="<?php bloginfo('template_directory'); ?>/imgs/backbutton.png"/></a>
