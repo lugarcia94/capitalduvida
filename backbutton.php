@@ -1,1 +1,1 @@
-<a class="backbutton" href="/"><img src="<?php bloginfo('template_directory'); ?>/imgs/backbutton.png"/></a>
+<a class="backbutton" href="<?php echo home_url('/#menu_info'); ?>"><img src="<?php bloginfo('template_directory'); ?>/imgs/backbutton.png" /></a>
