@@ -12,13 +12,21 @@
 <footer class="footer" id="footer">
     <div class="form__home">
 
-        <div>
+        <div class="form__contact__container">
             <div class="form__contact">
                 <a href="/"><img src="https://w57.199.myftpupload.com/wp-content/uploads/2025/03/quest.png"></a>
             </div>
-            <p>Conecte-se com<br /> <span class="ppeditorlightitalic">Capital<strong>da</strong></span> <span class="ppeditorlight">DÚVIDA</span></p>
-            <span>cadastre-se e receba<br />
-                nossa newsletter mensal.</span>
+            <div class="form__contact__title">
+                <span class="">Conecte-se com<br />
+                    <span class="ppeditorlightitalic">Capital</span>
+                    <span class="ppeditorbold"> da </span>
+                    <span class="ppeditorlight">DÚVIDA</span>
+                </span>
+            </div>
+            <div class="form__contact__subtitle">
+                <span>cadastre-se e receba<br />
+                    nossa newsletter mensal.</span>
+            </div>
         </div>
         <?php echo do_shortcode('[contact-form-7 id="3d33842" title="Form br"]'); ?>
 

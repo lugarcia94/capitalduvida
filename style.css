@@ -217,6 +217,26 @@ a:hover {
   width: 100%;
 }
 
+.contato_page {
+  color: #fff !important;
+}
+.contato_page svg {
+  fill: #fff !important;
+}
+
+.contato__logo {
+  top: 54px;
+  position: absolute;
+}
+
+.contato__title {
+  position: absolute;
+  z-index: 99;
+  top: 27%;
+  left: 5%;
+  font-size: 100px;
+}
+
 .header__info p {
   margin-left: 45px;
 }
@@ -1878,8 +1898,26 @@ span.wpcf7-spinner {
     width: 420px;
     height: 300px;
     position: absolute;
-    left: 50px;
+    left: -55px;
     bottom: 100px;
+  }
+
+  .form__contact__title span {
+    text-transform: none !important;
+    font-size: 39pt !important;
+    line-height: 55px;
+    -webkit-text-stroke: 0 !important;
+    letter-spacing: -5px;
+  }
+
+  .form__contact__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .form__contact__title {
+    margin-bottom: 10px;
   }
 }
 @media (min-width: 992px) {

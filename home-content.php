@@ -102,16 +102,16 @@
 
         <ul class="link__six">
             <li class="manifest__link">
-                <span class="ppeditorbold"><a href="/manifesto">manifesto</a><img class="link_img" src="https://w57.199.myftpupload.com/wp-content/uploads/2025/03/1.png" /></span>
-                <span class="ppeditorlightitalic"><img class="link_img" src="https://w57.199.myftpupload.com/wp-content/uploads/2025/03/2.png" /><a href="/fabricio-guimaraes">fabrício guimarães</a></span>
+                <span class="ppeditorbold"><a href="/manifesto">manifesto</a><img class="link_img" src="<?php bloginfo('template_directory'); ?>/imgs/1.png" /></span>
+                <span class="ppeditorlightitalic"><img class="link_img" src="<?php bloginfo('template_directory'); ?>/imgs/2.png" /><a href="/fabricio-guimaraes">fabrício guimarães</a></span>
             </li>
             <li class="podcast__link">
-                <span class="ppeditorlightitalic"><a>podcast</a><img class="link_img" src="https://w57.199.myftpupload.com/wp-content/uploads/2025/03/3.png" /></span>
-                <span class="ppeditorbold"><img class="link_img" src="https://w57.199.myftpupload.com/wp-content/uploads/2025/03/5.png" /><a href="#news">newsletter</a></span>
+                <span class="ppeditorlightitalic"><a>podcast</a><img class="link_img" src="<?php bloginfo('template_directory'); ?>/imgs/3.png" /></span>
+                <span class="ppeditorbold"><img class="link_img" src="<?php bloginfo('template_directory'); ?>/imgs/4.png" /><a href="#news">newsletter</a></span>
             </li>
             <li class="contact_link">
-                <span class="ppeditorlightitalic"><a href="/contato">contato</a><img class="link_img" src="https://w57.199.myftpupload.com/wp-content/uploads/2025/03/5.png" /></span>
-                <span class="ppeditorlightitalic"><img class="link_img" src="https://w57.199.myftpupload.com/wp-content/uploads/2025/03/6.png" /><a href="/termos-e-condicoes">termos legais</a></span>
+                <span class="ppeditorlightitalic"><a href="/contato">contato</a><img class="link_img" src="<?php bloginfo('template_directory'); ?>/imgs/5.png" /></span>
+                <span class="ppeditorlightitalic"><img class="link_img" src="<?php bloginfo('template_directory'); ?>/imgs/6.png" /><a href="/termos-e-condicoes">termos legais</a></span>
             </li>
         </ul>
 
