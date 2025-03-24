@@ -41,12 +41,15 @@ Text domain: é importante para traduzir o tema para outros idiomas.
   font-family: "Inter";
   src: url("../fabricio/fonts/InterTight-VariableFont_wght.ttf");
 }
-
-/* * {
+/* 
+* {
   border: 1px solid red;
 } */
 .inter {
   font-family: "Inter";
+}
+.spacing {
+  letter-spacing: -2px;
 }
 
 .ppeditor {
@@ -216,6 +219,20 @@ a:hover {
   z-index: 99;
   width: 100%;
 }
+.image__group {
+  position: absolute;
+  top: -350px;
+  right: -40px;
+  width: 700px;
+  min-height: 100vh;
+}
+.image__underground__mobile {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: none;
+}
 
 .contato_page {
   color: #fff !important;
@@ -235,6 +252,13 @@ a:hover {
   top: 27%;
   left: 5%;
   font-size: 100px;
+}
+
+.contato__page__by {
+  font-size: 42px !important;
+  margin-left: 300px;
+  width: 490px;
+  position: absolute;
 }
 
 .header__info p {
@@ -1103,9 +1127,7 @@ span.wpcf7-spinner {
 .video__container img {
   display: none;
 }
-.page-template-contato header.header {
-  padding: 0 85px;
-}
+
 .second .text__wrapper p {
   font-size: 55pt;
 }
@@ -1439,8 +1461,33 @@ span.wpcf7-spinner {
   .mob {
     display: block;
   }
-  .desk {
+  .desk,
+  .image__group {
     display: none;
+  }
+
+  .image__contact__background {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .contato__title {
+    font-size: 77px;
+    top: 19% !important;
+  }
+
+  .contato__page__by {
+    font-size: 20px !important;
+    margin-left: 130px;
+  }
+  .spacing {
+    letter-spacing: -1px;
+  }
+
+  .contato__mob,
+  .image__underground__mobile {
+    display: block !important;
   }
   .page__desk {
     display: none;
@@ -1453,7 +1500,7 @@ span.wpcf7-spinner {
     margin-bottom: 100px;
     font-size: 15px;
     line-height: 0.8;
-    width: 90%;
+    width: 85%;
   }
   .by__mobile {
     margin-left: 10px;

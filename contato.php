@@ -11,17 +11,28 @@
 get_header(); ?>
 
 <section class="contato">
-  <div class="desk">
+  <div class="desk contato__mob">
     <div class="contato_page contato__title">
       <span class="ppeditorlightitalic contato__logo">Capital</span><br>
       <span>
         <span class="ppeditorbold">da</span>
         <span class="ppeditorlight"> DÚVIDA</span>
       </span>
+      <br />
+
+      <span class="contato__page__by">
+        <span class="ppeditorlightitalic">por</span>
+        <span class="inter spacing"> Fabrício Guimarães</span>
+      </span>
     </div>
-    <img class="scroll-first" src="https://w57.199.myftpupload.com/wp-content/uploads/2025/03/contato.jpg" />
-  </div>
-  <div class=" mob"><img src="<?php bloginfo('template_directory'); ?>/imgs/contatomob.jpg" /></div>
+
+    <img class="scroll-first image__contact__background" src="<?php bloginfo('template_directory'); ?>/imgs/background_contacts.jpg" />
+    <img class="image__group" src="<?php bloginfo('template_directory'); ?>/imgs/Group.png" />
+    <img class="image__underground__mobile" src="<?php bloginfo('template_directory'); ?>/imgs/headermanifest.png" />
+    <
+
+      </div>
+      <!-- <div class=" mob"><img src="<?php bloginfo('template_directory'); ?>/imgs/contatomob.jpg" /></div> -->
 </section>
 
 
