@@ -85,6 +85,24 @@
 </script>
 <script>
     document.addEventListener('DOMContentLoaded', () => {
+        const episodesLink = document.querySelector('.episodies');
+        const episodeList = document.querySelector('.episode-list');
+        const arrowIcon = document.querySelector('.arrow-icon');
+
+        if (episodesLink && episodeList && arrowIcon) {
+            episodesLink.addEventListener('click', () => {
+                if (episodeList.style.display === 'none' || episodeList.style.display === '') {
+                    $(episodeList).fadeIn();
+                    arrowIcon.style.transform = 'rotate(180deg)';
+                } else {
+                    $(episodeList).fadeOut();
+                    arrowIcon.style.transform = 'rotate(0deg)';
+                }
+            });
+        }
+    });
+
+    document.addEventListener('DOMContentLoaded', () => {
         const videoContainer = document.querySelector('.video__container');
         const targetSection = document.querySelector('.first');
 
