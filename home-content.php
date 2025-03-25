@@ -59,7 +59,8 @@
     <div class="scroll-first four" id="four" style="background-image: url('<?php bloginfo('template_directory'); ?>/imgs/podcast_background.jpg'">
         <?php include 'language.php'; ?>
         <div class="text__wrapper" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-            <p><span class="ppeditorlight">EP.1 </span><span class="ppeditorlightitalic">GOSTO DUVIDOSO</span><strong> com Marcello Dantas</strong></p>
+            <p><span class="ppeditorlight">EP.1 </span><span class="ppeditorlightitalic">GOSTO DUVIDOSO</span><br /></p>
+            <p class="podcast__span"><span><strong> com Marcello Dantas</strong></span></p>
             <p class="inter minus__p podcast__p">Quem define o que é bom ou ruim? Uma conversa sobre arte, tecnologia, criatividade e, claro, gosto!</p>
 
 

@@ -345,6 +345,10 @@ a:hover {
   margin: 0 300px !important;
 }
 
+.podcast__span {
+  font-size: 23px !important;
+}
+
 .image__podcast__wave {
   margin: 105px 0;
   max-width: 58% !important;
