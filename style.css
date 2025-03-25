@@ -42,9 +42,9 @@ Text domain: é importante para traduzir o tema para outros idiomas.
   src: url("../fabricio/fonts/InterTight-VariableFont_wght.ttf");
 }
 
-* {
+/* * {
   border: 1px solid red;
-}
+} */
 .inter {
   font-family: "Inter";
 }
