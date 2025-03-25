@@ -29,10 +29,10 @@ get_header(); ?>
     <img class="scroll-first image__contact__background" src="<?php bloginfo('template_directory'); ?>/imgs/background_contacts.jpg" />
     <img class="image__group" src="<?php bloginfo('template_directory'); ?>/imgs/Group.png" />
     <img class="image__underground__mobile" src="<?php bloginfo('template_directory'); ?>/imgs/headermanifest.png" />
-    <
 
-      </div>
-      <!-- <div class=" mob"><img src="<?php bloginfo('template_directory'); ?>/imgs/contatomob.jpg" /></div> -->
+
+  </div>
+  <!-- <div class=" mob"><img src="<?php bloginfo('template_directory'); ?>/imgs/contatomob.jpg" /></div> -->
 </section>
 
 

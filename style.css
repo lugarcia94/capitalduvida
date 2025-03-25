@@ -41,10 +41,10 @@ Text domain: é importante para traduzir o tema para outros idiomas.
   font-family: "Inter";
   src: url("../fabricio/fonts/InterTight-VariableFont_wght.ttf");
 }
-/* 
+
 * {
   border: 1px solid red;
-} */
+}
 .inter {
   font-family: "Inter";
 }
@@ -257,7 +257,7 @@ a:hover {
 .contato__page__by {
   font-size: 42px !important;
   margin-left: 300px;
-  width: 490px;
+  width: 380px;
   position: absolute;
 }
 
@@ -1812,12 +1812,6 @@ span.wpcf7-spinner {
   }
 }
 
-@media (max-width: 460px) {
-  header.header .links__social {
-    top: -14px !important;
-  }
-}
-
 @media (max-width: 575px) {
   .header__by {
     display: block;
@@ -1831,6 +1825,10 @@ span.wpcf7-spinner {
 
   .connect__info {
     display: none;
+  }
+
+  .contato__page__by {
+    width: 185px;
   }
 
   .connect__info_mobile {
@@ -1999,6 +1997,10 @@ span.wpcf7-spinner {
 
   header.header {
     padding: 0 15px;
+  }
+
+  header.header .links__social {
+    margin-right: -80px !important;
   }
 
   .four .text__wrapper {
