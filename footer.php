@@ -36,10 +36,10 @@
             <ul class="links__footer">
                 <li><a href="/manifesto" class="inter">MANIFESTO</a></li>
                 <li><a href="/fabricio-guimaraes" class="ppeditorlightitalic">FABRÍCIO GUIMARÃES</a></li>
-                <li><a class="inter podcast__link">PODCAST</a></li>
+                <li><a href="/#podcast" class="inter podcast__link">PODCAST</a></li>
             </ul>
             <ul class="links__footer">
-                <li><a href="#news" class="ppeditorlightitalic">NEWSLETTER</a></li>
+                <li><a href="/#news" class="ppeditorlightitalic">NEWSLETTER</a></li>
                 <li><a href="/contato" class="inter">CONTATO</a></li>
                 <li><a href="/termos-e-condicoes" class="ppeditorlightitalic">TERMOS LEGAIS</a></li>
             </ul>
@@ -142,7 +142,7 @@
             topButton.style.display = "none";
 
             window.addEventListener("scroll", function() {
-                if (window.scrollY > 400 && (window.innerHeight + window.scrollY) < document.body.offsetHeight - 100) {
+                if (window.scrollY > 400) {
                     topButton.style.display = "block";
                 } else {
                     topButton.style.display = "none";
