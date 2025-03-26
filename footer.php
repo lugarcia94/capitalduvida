@@ -134,11 +134,11 @@
         }
     });
 
-
     document.addEventListener("DOMContentLoaded", function() {
         const topButton = document.querySelector(".topbutton");
+        const containerButton = document.querySelector(".container_button");
 
-        if (topButton) {
+        if (topButton && containerButton) {
             topButton.style.display = "none";
 
             window.addEventListener("scroll", function() {
@@ -146,6 +146,19 @@
                     topButton.style.display = "block";
                 } else {
                     topButton.style.display = "none";
+                }
+
+                const containerRect = containerButton.getBoundingClientRect();
+                const topButtonRect = topButton.getBoundingClientRect();
+
+                if (topButtonRect.bottom >= containerRect.top && topButtonRect.top <= containerRect.bottom) {
+                    topButton.style.position = "relative";
+                    topButton.style.top = '0px';
+                    topButton.style.left = '90%';
+                } else if (window.scrollY + window.innerHeight < containerRect.top + window.scrollY) {
+                    topButton.style.position = "fixed";
+                    topButton.style.top = "auto";
+
                 }
             });
 
