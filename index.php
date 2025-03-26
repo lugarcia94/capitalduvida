@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The main template file
  *
@@ -14,7 +15,7 @@
 
 get_header(); ?>
 <?php include 'home-content.php'; ?>
-<section class="scroll-first landing-page" style="background-image: url('<?php bloginfo('template_directory'); ?>/imgs/bgland.jpg'">
+<!-- <section class="scroll-first landing-page" style="background-image: url('<?php bloginfo('template_directory'); ?>/imgs/bgland.jpg'">
     <div class="header__landing"><p>Lançamento</p><p>03 . Abril</p></div>
     <div class="mid__landing"><img src="<?php bloginfo('template_directory'); ?>/imgs/mid-content.png"/></div>
     <div class="footer__landing">
@@ -25,7 +26,7 @@ get_header(); ?>
             <?php echo do_shortcode('[contact-form-7 id="3d33842" title="Form br"]'); ?>
         </div>
     </div>
-</section>
- 
+</section> -->
+
 
 <?php get_footer(); ?>
