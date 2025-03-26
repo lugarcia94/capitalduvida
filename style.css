@@ -1977,9 +1977,10 @@ span.wpcf7-spinner {
   }
 
   .scroll-first.four {
-    background: url("https://w57.199.myftpupload.com/wp-content/uploads/2025/03/home_podcast.png") !important;
     background-size: cover !important;
-    background-position: center !important;
+    background-position: center top !important;
+    background-size: 150%; 
+    background-position: center -200px !important; 
   }
   .scroll-first.five {
     background: url("https://w57.199.myftpupload.com/wp-content/uploads/2025/03/home_news-2.png") !important;
