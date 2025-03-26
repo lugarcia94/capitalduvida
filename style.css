@@ -1365,11 +1365,17 @@ span.wpcf7-spinner {
   }
   .form__home form input.wpcf7-form-control.wpcf7-submit.has-spinner {
     background: #fff;
-    color: #5d85c1;
+    /* color: #5d85c1; */
   }
-  footer .form__home form input.wpcf7-form-control.wpcf7-submit.has-spinner {
-    color: #966868;
+
+  .form__home
+    .custom-contact-form
+    form
+    input.wpcf7-form-control.wpcf7-submit.has-spinner {
+    background: transparent !important;
+    color: #fff !important;
   }
+
   footer.footer .form__home {
     margin: 0 auto 0;
     padding: 0;

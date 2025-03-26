@@ -132,7 +132,9 @@
                     <span>cadastre-se e receba<br />
                         nossa newsletter mensal.</span>
                 </div>
-                <?php echo do_shortcode('[contact-form-7 id="3d33842" title="Form br"]'); ?>
+                <div class="custom-contact-form">
+                    <?php echo do_shortcode('[contact-form-7 id="3d33842" title="Form br"]'); ?>
+                </div>
             </div>
             <div class="text__wrapper" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
                 <p class="inter minus__p">Uma vez ao mês, na sua caixinha de email, perguntas e respostas sobre os temas do momento <span class="ppeditor">+</span> uma curadoria com referências para ampliar seu olhar e transformar suas certezas.</p>
