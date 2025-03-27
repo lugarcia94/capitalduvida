@@ -54,9 +54,9 @@ add_action('customize_register', 'lkz_info_extra');
 
 function cf7_custom_success_message_styles_footer()
 {
-    if (is_front_page()) { // Check if it's the home page
-        $cor = '#fff'; // White color
-    } elseif (is_page('manifesto')) {
+    if (is_front_page()) { 
+        $cor = '#fff'; 
+    } elseif (is_page('manifesto') || is_page('termos-e-condicoes')) {
         $cor = '#966868';
     } else {
         $cor = '#5d85c1';
