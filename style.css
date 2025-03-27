@@ -2061,6 +2061,7 @@ span.wpcf7-spinner {
     background: url("./imgs/background_news.png") !important;
     background-size: cover !important;
     background-position: center !important;
+    overflow: hidden;
   }
   .page-template-termos,
   .page-template-termosen {
