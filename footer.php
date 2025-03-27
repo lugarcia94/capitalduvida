@@ -84,6 +84,30 @@
     AOS.init();
 </script>
 <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const languageLinks = document.querySelectorAll(".link__language li a");
+        const targetSection = document.querySelector(".scroll-first.six");
+
+        if (languageLinks.length > 0 && targetSection) {
+            window.addEventListener("scroll", function() {
+                const targetRect = targetSection.getBoundingClientRect();
+
+                languageLinks.forEach(link => {
+                    const linkRect = link.getBoundingClientRect();
+
+                    if (
+                        linkRect.bottom >= targetRect.top &&
+                        linkRect.top <= targetRect.bottom
+                    ) {
+                        link.style.setProperty("color", "#966868", "important");
+                    } else {
+                        link.style.color = "";
+                    }
+                });
+            });
+        }
+    });
+
     document.addEventListener('DOMContentLoaded', () => {
         const episodesLink = document.querySelector('.episodies');
         const episodeList = document.querySelector('.episode-list');
