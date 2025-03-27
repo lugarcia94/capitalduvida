@@ -1868,8 +1868,9 @@ span.wpcf7-spinner {
     font-size: 18px;
   }
 
-  .four .minus__p {
-    font-size: 12px !important;
+  .four .minus__p,
+  .five .minus__p {
+    font-size: 16px !important;
     margin: 15px auto !important;
     text-align: center;
     max-width: 100%;
@@ -2000,6 +2001,9 @@ span.wpcf7-spinner {
   .scroll-first.four {
     background: url("./imgs/podcast_background_mobile.jpg") !important;
   }
+  .scroll-first.five {
+    background: url("./imgs/background_news.png") !important;
+  }
 }
 
 @media (max-width: 520px) {
@@ -2041,7 +2045,7 @@ span.wpcf7-spinner {
   }
 
   .scroll-first.five {
-    background: url("https://w57.199.myftpupload.com/wp-content/uploads/2025/03/home_news-2.png") !important;
+    background: url("./imgs/background_news.png") !important;
     background-size: cover !important;
     background-position: center !important;
   }
@@ -2104,6 +2108,18 @@ span.wpcf7-spinner {
   .image_spotify {
     width: 20px;
     height: 20px;
+  }
+  .form__content {
+    width: 100%;
+  }
+  .form__home form {
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .form__home form {
+    margin-bottom: 5px;
   }
 }
 
