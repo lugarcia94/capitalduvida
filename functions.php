@@ -65,7 +65,10 @@ function cf7_custom_success_message_styles_footer()
     <style>
         .wpcf7-mail-sent-ok,
         .wpcf7-response-output,
-        .wpcf7-not-valid-tip {
+        .wpcf7-not-valid-tip,
+        .wpcf7-validation-errors,
+        .wpcf7-mail-sent-ng,
+        .wpcf7-spam-blocked {
             font-size: 11px !important;
             border: none !important;
             color: <?php echo $cor; ?> !important;
