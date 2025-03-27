@@ -398,6 +398,13 @@ a:hover {
   display: none;
 }
 
+.current_episode * {
+  color: #48494a !important;
+}
+.episode * {
+  color: #966868 !important;
+}
+
 .episode-list {
   background: white;
   padding: 20px;
@@ -415,7 +422,6 @@ a:hover {
   justify-content: space-between;
   padding: 20px 0;
   border-bottom: 1px solid #ccc;
-  color: #966868;
 }
 
 .episode:last-child {
@@ -1584,6 +1590,7 @@ span.wpcf7-spinner {
   }
   .mob {
     display: block;
+    z-index: 999;
   }
   .desk,
   .image__group {
@@ -2089,10 +2096,10 @@ span.wpcf7-spinner {
     margin-top: 60px !important;
   }
   .episode-duration {
-    right: 32px !important;
+    left: 70px !important;
   }
   .episode-date {
-    right: 102px !important;
+    left: 5px !important;
   }
 }
 
