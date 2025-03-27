@@ -15,7 +15,7 @@ get_header(); ?>
   <div class=" mob"><img src="<?php bloginfo('template_directory'); ?>/imgs/fabriciolateralmob.png" /></div>
   <div class="fabricio__header">
     <h2 class="ppeditorlightitalic">Fabrício</h2>
-    <span class="ppeditorlightitalic"><strong>Guimaraes</strong></span>
+    <span class="ppeditorlightitalic"><strong>Guimarães</strong></span>
     <img src="<?php bloginfo('template_directory'); ?>/imgs/fabricio.png" />
   </div>
 </section>

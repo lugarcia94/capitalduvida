@@ -1673,7 +1673,7 @@ span.wpcf7-spinner {
     text-align: center;
   }
   .fabricio__header strong {
-    font-size: 40px;
+    font-size: 45px;
     color: #5d85c1;
     text-align: center;
     font-family: "Inter";
@@ -1711,7 +1711,7 @@ span.wpcf7-spinner {
   .fabricio__header img {
     position: relative;
     max-width: 100%;
-    margin-top: 30px;
+    margin-top: -13px;
   }
   .page-template-fabricio .fabricio__header {
     margin: 0px auto;
@@ -1749,7 +1749,7 @@ span.wpcf7-spinner {
   }
 
   section.manifest__first {
-    margin: 130px 0px 0px 0px;
+    margin: 30px 0px 0px 0px;
     padding: 15px 25px;
   }
   section.manifest__first .mob {
@@ -2007,6 +2007,12 @@ span.wpcf7-spinner {
 }
 
 @media (max-width: 520px) {
+  .page__mobile {
+    color: #fff;
+    font-size: 11px;
+    line-height: 0.8;
+  }
+
   .video__container video {
     display: none;
   }
