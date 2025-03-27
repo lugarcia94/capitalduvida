@@ -234,6 +234,12 @@ a:hover {
   display: none;
 }
 
+.menu__image {
+  width: 17px !important;
+  height: 12px !important;
+  margin-top: 18px;
+}
+
 .contato_page {
   color: #fff !important;
 }
@@ -346,8 +352,29 @@ a:hover {
 }
 
 .image__podcast__wave {
-  margin: 105px 0;
-  max-width: 58% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  width: 100%;
+  padding: 100px 0;
+}
+
+.image_youtube {
+  width: 56px;
+  height: 40px;
+}
+.image_spotify {
+  width: 40px;
+  height: 40px;
+}
+
+.image__podcast__wave img {
+  max-height: 50px;
+}
+
+.image__podcast__wave a {
+  display: inline-block;
 }
 
 .episodies {
@@ -1452,7 +1479,7 @@ span.wpcf7-spinner {
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 15px;
+    bottom: -30px;
   }
   .six {
     flex-wrap: wrap;
@@ -1834,6 +1861,7 @@ span.wpcf7-spinner {
 
   .connect__info {
     display: none;
+    letter-spacing: -1.3px !important;
   }
 
   .contato__page__by {
@@ -1979,8 +2007,8 @@ span.wpcf7-spinner {
   .scroll-first.four {
     background-size: cover !important;
     background-position: center top !important;
-    background-size: 150%; 
-    background-position: center -200px !important; 
+    background-size: 150%;
+    background-position: center -200px !important;
   }
   .scroll-first.five {
     background: url("https://w57.199.myftpupload.com/wp-content/uploads/2025/03/home_news-2.png") !important;
@@ -2033,6 +2061,19 @@ span.wpcf7-spinner {
   .episode-duration {
     margin-top: 42px;
     margin-left: 20px;
+  }
+
+  .wave_image {
+    width: 80%;
+  }
+
+  .image_youtube {
+    width: 28px;
+    height: 20px;
+  }
+  .image_spotify {
+    width: 20px;
+    height: 20px;
   }
 }
 
