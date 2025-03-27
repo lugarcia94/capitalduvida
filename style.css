@@ -1998,11 +1998,6 @@ span.wpcf7-spinner {
     text-transform: uppercase;
   }
 }
-@media (max-width: 465px) {
-  .six .links__social p {
-    top: 40px;
-  }
-}
 
 @media (max-width: 378px) {
   .scroll-first.four {
@@ -2018,6 +2013,11 @@ span.wpcf7-spinner {
     color: #fff;
     font-size: 11px;
     line-height: 0.8;
+  }
+
+  .wpcf7-mail-sent-ok,
+  .wpcf7-response-output {
+    bottom: -35.8px;
   }
 
   .video__container video {
@@ -2101,6 +2101,11 @@ span.wpcf7-spinner {
   }
   .episode-date {
     left: 5px !important;
+  }
+
+  .six .links__social span,
+  .six .links__social p {
+    font-size: 7.65px;
   }
 }
 
