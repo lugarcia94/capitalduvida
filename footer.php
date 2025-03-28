@@ -85,6 +85,19 @@
 </script>
 <script>
     document.addEventListener("DOMContentLoaded", function() {
+        const episodeDates = document.querySelectorAll(".episode-date");
+
+        episodeDates.forEach(dateElement => {
+            const originalDate = new Date(dateElement.textContent.trim().replace(/(\d{2})\.(\d{2})\.(\d{4})/, '$2/$1/$3'));
+            if (!isNaN(originalDate)) {
+                const formattedDate = `${originalDate.getDate()}.${originalDate.getMonth() + 1}.${originalDate.getFullYear().toString().slice(-2)}`;
+                dateElement.textContent = formattedDate;
+            }
+        });
+    });
+
+
+    document.addEventListener("DOMContentLoaded", function() {
         const languageLinks = document.querySelectorAll(".link__language li a");
         const targetSection = document.querySelector(".scroll-first.six");
 

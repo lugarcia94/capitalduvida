@@ -88,6 +88,7 @@
                         <span class="episode-title ppeditorlight">EP. 2</span>
                         <span class="episode-title ppeditorlightitalic">GOSTO DUVIDOSO</span>
                         <span class="episode-guest">com Marcello Dantas</span>
+                        <img class="episode-image" src="<?php bloginfo('template_directory'); ?>/imgs/hover_podcast.png" alt="Episode Placeholder" />
 
                     </div>
                     <span class="ppeditorlight episode-date">03.2.25</span>
@@ -107,11 +108,13 @@
                     </span>
                 </div>
 
-                <div class="episode current_episode">
+                <div class="episode">
                     <div>
                         <span class="episode-title ppeditorlight">EP. 3</span>
                         <span class="episode-title ppeditorlightitalic">NOME DO EPISÓDIO</span>
                         <span class="episode-guest">com Nome do Convidado</span>
+                        <img class="episode-image" src="<?php bloginfo('template_directory'); ?>/imgs/hover_podcast.png" alt="Episode Placeholder" />
+
                     </div>
                     <span class="ppeditorlight episode-date">10.3.25</span>
                     <span class="ppeditorlight episode-duration">2h03m</span>
@@ -149,6 +152,7 @@
                             echo "<span class='episode-title ppeditorlight'>EP. $number </span>";
                             echo "<span class='episode-title ppeditorlightitalic'>$name</span>";
                             echo "<span class='episode-guest'>com $name_guest</span>";
+                            echo "<img class='episode-image' src='" . get_template_directory_uri() . "/imgs/hover_podcast.png' alt='Episode Placeholder' />";
                             echo "</div>";
                             echo "<span class='ppeditorlight episode-date'>$date_podcast</span>";
                             echo "<span class='ppeditorlight episode-duration'>$time</span>";
