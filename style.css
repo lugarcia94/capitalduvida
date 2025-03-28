@@ -669,7 +669,7 @@ section.manifest__first.three p span {
 }
 section.manifest__first.three {
   max-width: 1390px;
-  margin: 50px auto;
+  margin-bottom: 50px auto;
 }
 
 .backbutton {
@@ -1634,7 +1634,7 @@ span.wpcf7-spinner {
     width: 85%;
   }
   .by__mobile {
-    margin-left: 10px;
+    margin-left: 5px;
   }
 
   .connet__info_page {
@@ -1728,7 +1728,7 @@ span.wpcf7-spinner {
     display: flex;
     align-items: center;
     position: absolute;
-    right: 40px;
+    right: 50px;
   }
   header.header .links__social a {
     margin-left: 5px;
@@ -1741,7 +1741,6 @@ span.wpcf7-spinner {
   }
 
   header.header img {
-    max-width: 20px;
     width: 100%;
   }
 
@@ -1766,7 +1765,7 @@ span.wpcf7-spinner {
     font-size: 19px;
   }
   section.manifest__first.second {
-    margin-top: 45px;
+    margin-top: 10px;
   }
   section.manifest__first.three p span {
     font-size: 18px;
@@ -2052,9 +2051,9 @@ span.wpcf7-spinner {
   }
 
   .scroll-first.four {
-    background: url("./imgs/podcast_background.jpg") no-repeat center;
-    background-clip: content-box;
-    background-origin: content-box;
+    background: url("./imgs/podcast_background_mobile.jpg") no-repeat center
+      center !important;
+    background-size: cover !important;
   }
 
   .scroll-first.five {
@@ -2070,6 +2069,9 @@ span.wpcf7-spinner {
     background-repeat: no-repeat;
   }
 
+  .fabricio__text {
+    margin-top: -40px !important;
+  }
   section.contato .mob img {
     width: 100%;
     object-fit: cover;
@@ -2138,7 +2140,7 @@ span.wpcf7-spinner {
 
 @media (max-width: 1199px) {
   .form__home form {
-    margin-bottom: 5px;
+    margin-bottom: 37px;
   }
 }
 
