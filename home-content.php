@@ -103,6 +103,8 @@
                         $date_podcast = get_field('date_podcast');
                         $time = get_field('time');
                         $image = get_field('episodio_image');
+                        $link_spotify = get_field('link_spotify');
+                        $link_youtube = get_field('link_youtube');
 
                         if ($number) {
                             $episodes[] = [
@@ -112,11 +114,12 @@
                                 'date_podcast' => $date_podcast,
                                 'time' => $time,
                                 'image' => $image,
+                                'link_spotify' => $link_spotify,
+                                'link_youtube' => $link_youtube,
                             ];
                         }
                     }
                 }
-
 
                 usort($episodes, function ($a, $b) {
                     return $a['number'] - $b['number'];
@@ -133,10 +136,10 @@
                     echo "<span class='ppeditorlight episode-date'>{$episode['date_podcast']}</span>";
                     echo "<span class='ppeditorlight episode-duration'>{$episode['time']}</span>";
                     echo "<span class='episode-icons'>
-                        <a href='#'>
+                        <a href='{$episode['link_spotify']}' target='_blank'>
                             <img width='28' height='28' src='" . get_template_directory_uri() . "/imgs/spotify_icon.png' alt='spotify_icon' />
                         </a>
-                        <a href='#'>
+                        <a href='{$episode['link_youtube']}' target='_blank'>
                             <img width='30' height='20' src='" . get_template_directory_uri() . "/imgs/youtube_icon.png' alt='youtube_icon' />
                         </a>
                     </span>";
