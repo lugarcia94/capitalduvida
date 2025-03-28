@@ -402,15 +402,25 @@ a:hover {
 
 .episode * {
   color: #48494a !important;
+  object-fit: contain;
 }
 
 .episode-image {
   display: none;
 }
 
+.episode svg {
+  margin-left: 10px;
+}
+
 @media (min-width: 520px) {
   .episode:hover * {
     color: #966868 !important;
+    cursor: pointer;
+  }
+  .episode:hover svg path {
+    fill: #966868 !important;
+    cursor: pointer;
   }
 }
 
@@ -484,8 +494,12 @@ a:hover {
 .episode-icons svg {
   color: #966868;
   fill: #966868;
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
+}
+.icon__spotify {
+  width: 30px !important;
+  height: 30px !important;
 }
 
 .four .text__wrapper {
