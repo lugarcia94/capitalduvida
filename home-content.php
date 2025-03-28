@@ -83,11 +83,11 @@
 
             </p>
             <div class="episode-list">
-
                 <?php
 
-                if (have_posts()) {
+                $episodes = [];
 
+                if (have_posts()) {
                     while (have_posts()) {
                         the_post();
 
@@ -99,26 +99,42 @@
                         $image = get_field('episodio_image');
 
                         if ($number) {
-                            echo "<div class='episode'>";
-                            echo "<div>";
-                            echo "<span class='episode-title ppeditorlight'>EP. $number </span>";
-                            echo "<span class='episode-title ppeditorlightitalic'>$name</span>";
-                            echo "<span class='episode-guest'>com $name_guest</span>";
-                            echo "<img class='episode-image' src='$image' alt='Episode Placeholder' />";
-                            echo "</div>";
-                            echo "<span class='ppeditorlight episode-date'>$date_podcast</span>";
-                            echo "<span class='ppeditorlight episode-duration'>$time</span>";
-                            echo "<span class='episode-icons'>
-                                <a href='#'>
-                                    <img width='28' height='28' src='" . get_template_directory_uri() . "/imgs/spotify_icon.png' alt='spotify_icon' />
-                                </a>
-                                <a href='#'>
-                                    <img width='30' height='20' src='" . get_template_directory_uri() . "/imgs/youtube_icon.png' alt='youtube_icon' />
-                                </a>
-                            </span>";
-                            echo "</div>";
+                            $episodes[] = [
+                                'number' => $number,
+                                'name' => $name,
+                                'name_guest' => $name_guest,
+                                'date_podcast' => $date_podcast,
+                                'time' => $time,
+                                'image' => $image,
+                            ];
                         }
                     }
+                }
+
+
+                usort($episodes, function ($a, $b) {
+                    return $a['number'] - $b['number'];
+                });
+
+                foreach ($episodes as $episode) {
+                    echo "<div class='episode'>";
+                    echo "<div>";
+                    echo "<span class='episode-title ppeditorlight'>EP. {$episode['number']} </span>";
+                    echo "<span class='episode-title ppeditorlightitalic'>{$episode['name']}</span>";
+                    echo "<span class='episode-guest'>com {$episode['name_guest']}</span>";
+                    echo "<img class='episode-image' src='{$episode['image']}' alt='Episode Placeholder' />";
+                    echo "</div>";
+                    echo "<span class='ppeditorlight episode-date'>{$episode['date_podcast']}</span>";
+                    echo "<span class='ppeditorlight episode-duration'>{$episode['time']}</span>";
+                    echo "<span class='episode-icons'>
+                        <a href='#'>
+                            <img width='28' height='28' src='" . get_template_directory_uri() . "/imgs/spotify_icon.png' alt='spotify_icon' />
+                        </a>
+                        <a href='#'>
+                            <img width='30' height='20' src='" . get_template_directory_uri() . "/imgs/youtube_icon.png' alt='youtube_icon' />
+                        </a>
+                    </span>";
+                    echo "</div>";
                 }
                 ?>
 
