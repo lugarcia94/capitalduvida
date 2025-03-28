@@ -9,7 +9,7 @@
  * Template Name: manifesto
  */
 get_header(); ?>
-
+<?php include 'language.php'; ?>
 <section class="manifest__first">
    <div class="lateral__info desk"><img src="<?php bloginfo('template_directory'); ?>/imgs/manifestolateral.png" /></div>
    <div class=" mob"><img src="<?php bloginfo('template_directory'); ?>/imgs/manifestolateralmob.png" /></div>

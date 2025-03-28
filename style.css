@@ -130,6 +130,8 @@ a:hover {
 .link__language {
   position: fixed !important;
   top: 15px;
+  right: 10px;
+  z-index: 999;
 }
 
 .link__language a {
@@ -644,7 +646,7 @@ header.header .links__social svg {
   background-attachment: fixed;
 }
 section.manifest__first {
-  padding: 0 25px;
+  padding: 0 105px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -695,7 +697,7 @@ section.manifest__first.three p span {
 }
 section.manifest__first.three {
   max-width: 1390px;
-  margin-bottom: 50px auto;
+  margin-bottom: 50px;
 }
 
 .backbutton {
@@ -867,7 +869,7 @@ header.header .links__social svg {
   max-width: 550px;
 }
 .fabricio__text {
-  max-width: 900px !important;
+  /* max-width: 900px !important; */
 }
 
 .fabricio__text a {

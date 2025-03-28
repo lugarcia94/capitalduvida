@@ -9,6 +9,7 @@
  * Template Name: contato
  */
 get_header(); ?>
+<?php include 'language.php'; ?>
 
 <section class="contato">
   <div class="desk contato__mob">
