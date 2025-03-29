@@ -223,7 +223,7 @@ get_header(); ?>
                 <span class="ppeditorbold"><img class="link_img" src="<?php bloginfo('template_directory'); ?>/imgs/4.png" /><a href="#news">newsletter</a></span>
             </li>
             <li class="contact_link">
-                <span class="ppeditorlightitalic"><a href="/contato">connect</a><img class="link_img" src="<?php bloginfo('template_directory'); ?>/imgs/5.png" /></span>
+                <span class="ppeditorlightitalic"><a href="/contato">contact</a><img class="link_img" src="<?php bloginfo('template_directory'); ?>/imgs/5.png" /></span>
                 <span class="ppeditorlightitalic"><img class="link_img" src="<?php bloginfo('template_directory'); ?>/imgs/6.png" /><a href="/termos-e-condicoes">terms and conditions</a></span>
             </li>
         </ul>
