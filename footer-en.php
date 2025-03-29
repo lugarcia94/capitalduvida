@@ -88,15 +88,12 @@
         const languagePT = document.querySelector(".pt");
         const languageEN = document.querySelector(".en");
 
-        if (languagePT || languageEN) {
-            if (languagePT && !window.location.pathname.endsWith("/en/")) {
-                languagePT.style.setProperty("text-decoration", "underline", "important");
-            } else if (languageEN) {
-                languageEN.style.setProperty("text-decoration", "underline", "important");
-                if (languagePT) {
-                    languagePT.style.setProperty("text-decoration", "none", "important");
-                }
-            }
+        if (languageEN) {
+
+            languagePT.style.setProperty("text-decoration", "none", "important");
+            languageEN.style.setProperty("text-decoration", "underline", "important");
+
+
         }
     });
 

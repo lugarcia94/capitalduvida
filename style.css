@@ -1039,6 +1039,9 @@ header.header .links__social svg {
 section.contato {
   margin-top: -110px;
 }
+.page-template-contatoen header.header .top__info p,
+.page-template-contatoen ul.link__language li a,
+.page-template-contatoen header.header .links__social svg,
 .page-template-contato header.header .top__info p,
 .page-template-contato ul.link__language li a,
 .page-template-contato header.header .links__social svg {
