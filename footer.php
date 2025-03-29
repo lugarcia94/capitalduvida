@@ -85,6 +85,22 @@
 </script>
 <script>
     document.addEventListener("DOMContentLoaded", function() {
+        const languagePT = document.querySelector(".pt");
+        const languageEN = document.querySelector(".en");
+
+        if (languagePT || languageEN) {
+            if (languagePT && !window.location.pathname.endsWith("/en")) {
+                languagePT.style.setProperty("text-decoration", "underline", "important");
+            } else if (languageEN) {
+                languageEN.style.setProperty("text-decoration", "underline", "important");
+                if (languagePT) {
+                    languagePT.style.setProperty("text-decoration", "none", "important");
+                }
+            }
+        }
+    });
+
+    document.addEventListener("DOMContentLoaded", function() {
         const episodeDates = document.querySelectorAll(".episode-date");
 
         episodeDates.forEach(dateElement => {

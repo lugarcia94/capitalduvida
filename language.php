@@ -1,5 +1,5 @@
 <ul class="link__language">
-    <li><a href="/">PT</a>
+    <li><a class="pt" href="/">PT</a>
     </li>
-    <li><a href="/en">EN</a></li>
+    <li><a class="en" href="/en">EN</a></li>
 </ul>

@@ -170,6 +170,16 @@ a:hover {
   position: sticky;
 }
 
+.welcome {
+  font-size: 45px;
+  font-family: "Inter";
+  font-weight: 400;
+  margin: 0;
+  color: #fff;
+  padding: 0 2px;
+  text-align: center;
+}
+
 .text__wrapper.second p .ppeditor {
   font-family: "PPEditorialNewLight";
   font-weight: 100;
@@ -230,7 +240,7 @@ a:hover {
   position: absolute;
   font-size: 30px;
   color: #966868;
-  top: 15px;
+  top: -13px;
   z-index: 99;
   width: 100%;
 }
@@ -572,7 +582,13 @@ ul.link__six li a {
   left: 0;
   margin: 0;
   text-align: left;
+  width: 175px;
 }
+
+.links__social span {
+  cursor: pointer;
+}
+
 .six .links__social ul li {
   margin: 0 0 15px 0;
 }
@@ -626,7 +642,7 @@ ul.link__language {
 }
 ul.link__language li a {
   color: #5d85c1;
-  font-size: 25px;
+  font-size: 22px;
   margin: 0 5px;
 }
 header.header h1 {
@@ -1418,6 +1434,11 @@ span.wpcf7-spinner {
     font-size: 27px;
     letter-spacing: -1.5px;
   }
+
+  .header__info {
+    top: 15px;
+  }
+
   .footer__landing .text__wrapper p {
     font-size: 24px;
     max-width: 60%;
@@ -1559,9 +1580,9 @@ span.wpcf7-spinner {
   ul.link__six li {
     text-align: center;
   }
-  .six .links__social ul {
+  /* .six .links__social ul {
     width: 130%;
-  }
+  } */
   .five .minus__p {
     font-size: 19px !important;
     max-width: 100%;
@@ -1771,6 +1792,7 @@ span.wpcf7-spinner {
     align-items: center;
     position: absolute;
     right: 50px;
+    gap: 5px;
   }
   header.header .links__social a {
     margin-left: 5px;

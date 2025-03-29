@@ -1,11 +1,11 @@
 <section>
 
-    <div class="video__container">
+    <!-- <div class="video__container">
         <video autoplay loop muted playsinline id="vid">
             <source src="https://w57.199.myftpupload.com/wp-content/uploads/2025/03/capital-1.mp4" type="video/mp4">
         </video>
         <img src="https://w57.199.myftpupload.com/wp-content/uploads/2025/03/capital-da-duvida_home_mobile.gif" />
-    </div>
+    </div> -->
     <div class="scroll-first first" style="background-image: url('<?php bloginfo('template_directory'); ?>/imgs/scroll1.jpg'">
         <?php include 'language.php'; ?>
         <div class="text__wrapper" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
@@ -38,7 +38,7 @@
         </div>
 
     </div>
-    <div class="scroll-first third" style="background-image: url('<?php bloginfo('template_directory'); ?>/imgs/scroll3.jpg'">
+    <div class="scroll-first third" style="background-image: url('<?php bloginfo('template_directory'); ?>/imgs/scroll3.png'">
         <div class="text__wrapper second" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
             <p><span class="ppeditorlightitalic">Dúvida como capital,</span> centro de partida. <br />
                 Dúvida como capital intelectual e financeiro.<br /> Dúvida como geração de consciência, capaz de<br /> abrir mentes, mudar hábitos e criar negócios.</p>
@@ -47,7 +47,7 @@
     </div>
 
     <div class="scroll-first third-third" style="background-image: url('<?php bloginfo('template_directory'); ?>/imgs/scroll1.jpg'">
-        <div class="text__wrapper" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+        <div class="welcome" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
             <p><strong>Seja bem-vindo.</strong> Aqui, você pode <span class="ppeditorlightitalic">(e deve)</span> duvidar à vontade.</p>
         </div>
 
@@ -80,6 +80,8 @@
             <p class="inter minus__p podcast__p">Todos os meses, uma conversa entre mentes criativas, intelectuais e mundanas que irão nos guiar pela melhor das certezas: <span class="ppeditorlightitalic">A DÚVIDA</span></p>
             <br />
 
+
+
             <p class="minus__p podcast__p episodies">
 
                 <svg class="arrow-icon" width="30" height="14" viewBox="0 0 40 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -88,12 +90,16 @@
                 <strong>confira todos os episódios</strong>
 
             </p>
+
+
             <div class="episode-list">
                 <?php
 
                 $episodes = [];
 
                 if (have_posts()) {
+
+
                     while (have_posts()) {
                         the_post();
 
