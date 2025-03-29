@@ -48,7 +48,7 @@
 
     <div class="scroll-first third-third" style="background-image: url('<?php bloginfo('template_directory'); ?>/imgs/scroll1.jpg'">
         <div class="welcome" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-            <p><strong>Seja bem-vindo.</strong> Aqui, você pode <span class="ppeditorlightitalic">(e deve)</span> duvidar à vontade.</p>
+            <p><strong>Seja bem-vindo.</strong> Aqui, você pode <span class="ppeditorlightitalic" style="white-space: nowrap;">(e deve)</span> duvidar à vontade.</p>
         </div>
 
     </div>

@@ -13,7 +13,7 @@ get_header(); ?>
 
 <section class="contato">
   <div class="desk contato__mob">
-    <div class="contato_page contato__title">
+    <div class="contato_page contato__title mobile">
       <span class="ppeditorlightitalic contato__logo">Capital</span><br>
       <span>
         <span class="ppeditorbold">da</span>
@@ -24,6 +24,10 @@ get_header(); ?>
       <span class="contato__page__by">
         <span class="ppeditorlightitalic">por</span>
         <span class="inter spacing"> Fabrício Guimarães</span>
+      </span>
+
+      <span class="contato__page__mail">
+        <span class="inter">CONTATO@CAPITALDADUVIDA.COM</span>
       </span>
     </div>
 

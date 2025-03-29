@@ -36,7 +36,7 @@
             <ul class="links__footer">
                 <li><a href="/manifesto" class="inter">MANIFESTO</a></li>
                 <li><a href="/fabricio-guimaraes" class="ppeditorlightitalic">FABRÍCIO GUIMARÃES</a></li>
-                <li><a href="/#podcast" class="inter podcast__link">PODCAST</a></li>
+                <li><a href="/#podcast" class="inter podcast_link">PODCAST</a></li>
             </ul>
             <ul class="links__footer">
                 <li><a href="/#news" class="ppeditorlightitalic">NEWSLETTER</a></li>
@@ -89,7 +89,7 @@
         const languageEN = document.querySelector(".en");
 
         if (languagePT || languageEN) {
-            if (languagePT && !window.location.pathname.endsWith("/en")) {
+            if (languagePT && !window.location.pathname.endsWith("/en/")) {
                 languagePT.style.setProperty("text-decoration", "underline", "important");
             } else if (languageEN) {
                 languageEN.style.setProperty("text-decoration", "underline", "important");
@@ -172,7 +172,7 @@
     });
 
     document.addEventListener('DOMContentLoaded', () => {
-        const videoContainer = document.querySelector('.podcast__link');
+        const videoContainer = document.querySelector('.podcast_link');
         const targetSection = document.querySelector('#four');
 
         if (videoContainer && targetSection) {

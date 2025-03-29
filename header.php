@@ -25,10 +25,9 @@
 
 <body <?php body_class(); ?>>
     <header class="header">
-
-        <h1 class="desk"><a href="/"><img src="<?php bloginfo('template_directory'); ?>/imgs/logo1.png" /></a></h1>
         <div class="menu__mob mob"><a href="<?php echo home_url('/#menu_info'); ?>"><img class="menu__image" src="<?php bloginfo('template_directory'); ?>/imgs/meu_hamburguer_mobile.svg" /></a></div>
         <div class="header__info page__desk<?php if (is_page('contato')) echo ' contato_page'; ?>">
+            <h1 class="desk"><a href="/"><img class="header__interrogation" src="<?php bloginfo('template_directory'); ?>/imgs/logo1.png" /></a></h1>
             <p>
                 <span class="connect__info">Conecte-se com
                     <span class="ppeditorlightitalic">Capital</span>
