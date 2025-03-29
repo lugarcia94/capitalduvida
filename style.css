@@ -667,9 +667,9 @@ header.header .links__social svg {
 .page-template-manifesto,
 .page-template-manifesten {
   background: url("./imgs/bgmanifest.png");
-  background-size: cover;
+  background-size: 100%; /* Reduced by 10% */
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
 }
 .page-template-fabricio,
 .page-template-fabricioen {
@@ -1207,6 +1207,8 @@ section.contato {
   margin: 0 auto;
 }
 
+.page-template-contatoen footer p,
+.page-template-contatoen footer span,
 .page-template-contato footer p,
 .page-template-contato footer span,
 .page-template-fabricio footer p,
@@ -1240,6 +1242,20 @@ section.contato {
 .page-template-fabricio .footer .links__social,
 .page-template-contato .footer .links__social {
   border-top: 1px dashed #5d85c1;
+}
+
+.page-template-contatoen ul.links__footer li a,
+.page-template-contatoen ul.links__footer li a,
+.page-template-contatoen ul.links__footer li a {
+  color: #5d85c1 !important;
+}
+
+.page-template-contatoen ul.links__footer li a,
+.page-template-contatoen .footer .links__social span,
+.page-template-contatoen .footer .links__social svg,
+.page-template-contatoen .footer .links__social {
+  color: #5d85c1 !important;
+  fill: #5d85c1;
 }
 
 .footer .links__social svg {
