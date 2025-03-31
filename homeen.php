@@ -20,7 +20,7 @@ get_header(); ?>
     <div class="scroll-first first" style="background-image: url('<?php bloginfo('template_directory'); ?>/imgs/scroll1.jpg'">
         <?php include 'language.php'; ?>
         <div class="text__wrapper" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-            <p>Connect with <span class="ppeditorlightitalic">Capital <strong>da</strong></span> <span class="ppeditorlight">DÚVIDA by Fabrício Guimarães</span></p>
+            <p>Connect with <span class="ppeditorlightitalic">Capital <strong>da</strong></span> <span class="ppeditorlight">DÚVIDA</span></p>
         </div>
         <div class="links__social" data-aos="fade-down" data-aos-anchor-placement="bottom-bottom">
             <a href="#" target="_blank">
@@ -47,8 +47,6 @@ get_header(); ?>
         <div class="text__wrapper second" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
             <p><span class="ppeditorlightitalic">More often than not, it all starts with a single</span> <strong>“what if?”</strong></p>
         </div>
-        <?php include 'top-infoen.php'; ?>
-        <?php include 'socials.php'; ?>
     </div>
     <div class="scroll-first third" style="background-image: url('<?php bloginfo('template_directory'); ?>/imgs/scroll3.png'">
         <div class="text__wrapper second" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">

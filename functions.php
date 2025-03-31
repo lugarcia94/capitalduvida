@@ -54,8 +54,8 @@ add_action('customize_register', 'lkz_info_extra');
 
 function cf7_custom_success_message_styles_footer()
 {
-    if (is_front_page()) { 
-        $cor = '#fff'; 
+    if (is_front_page()) {
+        $cor = '#fff';
     } elseif (is_page('manifesto') || is_page('termos-e-condicoes')) {
         $cor = '#966868';
     } else {

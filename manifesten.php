@@ -9,7 +9,7 @@
  * Template Name: manifesten
  */
 get_header('en'); ?>
-
+<?php include 'language.php'; ?>
 <section class="manifest__first">
     <div class="lateral__info desk"><img src="<?php bloginfo('template_directory'); ?>/imgs/manifestolateral.png" /></div>
     <div class="mob"><img src="<?php bloginfo('template_directory'); ?>/imgs/manifestolateralmob.png" /></div>
@@ -47,6 +47,5 @@ get_header('en'); ?>
     <p>Because more often than not, it all starts with a single "what if”.</p>
 </section>
 
-<?php include 'backbutton.php'; ?>
 <?php include 'backbutton.php'; ?>
 <?php get_footer('en'); ?>

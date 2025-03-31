@@ -9,7 +9,7 @@
  * Template Name: termos
  */
 get_header('en'); ?>
-
+<?php include 'language.php'; ?>
 <section class="manifest__first">
   <div class="lateral__info desk"><img src="<?php bloginfo('template_directory'); ?>/imgs/termos.png" /></div>
   <div class=" mob"><img src="https://w57.199.myftpupload.com/wp-content/uploads/2025/03/termosmob.png" /></div>
