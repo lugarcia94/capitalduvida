@@ -27,7 +27,7 @@ get_header('en'); ?>
       </span>
 
       <span class="contato__page__mail">
-        <span class="inter">CONTATO@CAPITALDADUVIDA.COM</span>
+        <span class="inter">CONTATO@CAPITALDADUVIDA.COM.BR</span>
       </span>
     </div>
 

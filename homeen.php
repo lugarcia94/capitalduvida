@@ -106,20 +106,25 @@ get_header(); ?>
 
                 $episodes = [];
 
-                if (have_posts()) {
+				$args = [
+					'post_type'      => 'post',  
+					'posts_per_page' => 10,
+				];
 
+				$query = new WP_Query($args);
 
-                    while (have_posts()) {
-                        the_post();
+				if ($query->have_posts()) {
+					while ($query->have_posts()) {
+						$query->the_post();  
 
-                        $number = get_field('number');
-                        $name = get_field('name');
-                        $name_guest = get_field('name_guest');
-                        $date_podcast = get_field('date_podcast');
-                        $time = get_field('time');
-                        $image = get_field('episodio_image');
-                        $link_spotify = get_field('link_spotify');
-                        $link_youtube = get_field('link_youtube');
+						$number = get_field('number');
+						$name = get_field('name');
+						$name_guest = get_field('name_guest');
+						$date_podcast = get_field('date_podcast');
+						$time = get_field('time');
+						$image = get_field('episodio_image');
+						$link_spotify = get_field('link_spotify');
+						$link_youtube = get_field('link_youtube');
 
                         if ($number) {
                             $episodes[] = [
