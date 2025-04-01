@@ -43,20 +43,18 @@
             <p><span class="ppeditorlightitalic">Dúvida como capital,</span> centro de partida. <br />
                 Dúvida como capital intelectual e financeiro.<br /> Dúvida como geração de consciência, capaz de<br /> abrir mentes, mudar hábitos e criar negócios.</p>
         </div>
-
     </div>
 
     <div class="scroll-first third-third" style="background-image: url('<?php bloginfo('template_directory'); ?>/imgs/scroll1.jpg'">
         <div class="welcome" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-            <p><strong>Seja bem-vindo.</strong> Aqui, você pode <span class="ppeditorlightitalic" style="white-space: nowrap;">(e deve)</span> duvidar à vontade.</p>
+            <p><strong>Seja bem-vindo(a).</strong> Aqui, você pode <span class="ppeditorlightitalic" style="white-space: nowrap;">(e deve)</span> duvidar à vontade.</p>
         </div>
-
     </div>
 
     <div class="scroll-first four" id="podcast" style="background-image: url('<?php bloginfo('template_directory'); ?>/imgs/podcast_background.jpg'">
         <div class="text__wrapper" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
             <p><span class="ppeditorlight">EP.1 </span><span class="ppeditorlightitalic">GOSTO DUVIDOSO</span><strong> com Marcello Dantas</strong></p>
-            <p class="inter minus__p podcast__p">Quem define o que é bom ou ruim? Uma conversa sobre arte, tecnologia, criatividade e, claro, gosto!</p>
+            <p class="inter minus__p podcast__p">Quem define o que é bom ou ruim? Um papo sobre arte, tecnologia, criatividade e, claro, gosto!</p>
 
 
             <div class="image__podcast__wave">

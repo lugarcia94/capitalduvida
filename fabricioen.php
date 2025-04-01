@@ -31,7 +31,7 @@ get_header('en'); ?>
 
   <p>Around here, he’ll challenge perspectives, spark curiosity, and invite you to explore new possibilities—letting go of limits and embracing life on your own terms.</p>
   <p>“My goal with Capital da Dúvida is to show paths for people, enabling them to discover and walk their own way—free from limitations”. Fabrício.</p>
-  <a href="#" class="ppeditorlightitalic"><span>Linkedin -</span> <img class="linkedin" src="<?php bloginfo('template_directory'); ?>/imgs/linkedin.png" /></a>
+  <a href="https://www.linkedin.com/in/guimaraesfabricio/" target="_blank" class="ppeditorlightitalic"><span>Linkedin -</span> <img class="linkedin" src="<?php bloginfo('template_directory'); ?>/imgs/linkedin.png" /></a>
 </section>
 
 <?php get_footer('en'); ?>

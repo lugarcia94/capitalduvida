@@ -30,7 +30,7 @@ get_header(); ?>
   <p>Empreendedor em série, curioso e fã de tudo o que é arte, design, da mente humana, esportes e viagens, além de torta de banana, cocriou a sua primeira empresa em 2013, é pai da Musa, sócio da Be180, mediatech especializada em OOH, cocriador do Instituto Terra Livre e founder da Like Me, healthtech em fase de captação no mercado estadunidense. </p>
 
   <p>Por aqui, vai duvidar de algumas coisas e convidar você e outras pessoas a se inspirar em múltiplas possibilidades e abrir mão das limitações para sentir a vida da forma que se deseja.  </p>
-  <a href="#" class="ppeditorlightitalic"><span>Linkedin -</span> <img class="linkedin" src="<?php bloginfo('template_directory'); ?>/imgs/linkedin.png" /></a>
+  <a href="https://www.linkedin.com/in/guimaraesfabricio/" target="_blank" class="ppeditorlightitalic"><span>Linkedin -</span> <img class="linkedin" src="<?php bloginfo('template_directory'); ?>/imgs/linkedin.png" /></a>
 </section>
 
 <?php get_footer(); ?>

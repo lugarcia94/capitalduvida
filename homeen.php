@@ -58,7 +58,7 @@ get_header(); ?>
 
     <div class="scroll-first third-third" style="background-image: url('<?php bloginfo('template_directory'); ?>/imgs/scroll1.jpg'">
         <div class="welcome" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
-            <p><strong>Welcome.</strong> to the place <span class="ppeditorlightitalic" style="white-space: nowrap;">(and should)</span> where questions led the way.</p>
+            <p><strong>Welcome.</strong> to the place   where questions led the way.</p>
         </div>
 
     </div>

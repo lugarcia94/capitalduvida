@@ -25,18 +25,22 @@ Text domain: é importante para traduzir o tema para outros idiomas.
   font-family: "PPEditorialNew";
   src: url("../fabricio/fonts/PPEditorialNew-Regular.ttf");
 }
+
 @font-face {
   font-family: "PPEditorialNewLight";
   src: url("../fabricio/fonts/PPEditorialNew-Ultralight.ttf");
 }
+
 @font-face {
   font-family: "PPEditorialNewLightitalic";
   src: url("../fabricio/fonts/PPEditorialNew-UltralightItalic.ttf");
 }
+
 @font-face {
   font-family: "PPEditorialNewBold";
   src: url("../fabricio/fonts/PPEditorialNew-UltraboldItalic.ttf");
 }
+
 @font-face {
   font-family: "Inter";
   src: url("../fabricio/fonts/InterTight-VariableFont_wght.ttf");
@@ -48,6 +52,7 @@ Text domain: é importante para traduzir o tema para outros idiomas.
 .inter {
   font-family: "Inter";
 }
+
 .spacing {
   letter-spacing: -2px;
 }
@@ -55,9 +60,11 @@ Text domain: é importante para traduzir o tema para outros idiomas.
 .ppeditor {
   font-family: "PPEditorialNew";
 }
+
 .ppeditorbold {
   font-family: "PPEditorialNewBold";
 }
+
 .ppeditorlight {
   font-family: "PPEditorialNewLight";
   font-weight: 100;
@@ -66,12 +73,15 @@ Text domain: é importante para traduzir o tema para outros idiomas.
 .ppeditorlightitalic {
   font-family: "PPEditorialNewLightitalic";
   font-weight: 100;
-  -webkit-text-stroke: 0px !important; /* Remove o contorno */
+  -webkit-text-stroke: 0px !important;
+  /* Remove o contorno */
   text-stroke: 0px !important;
 }
+
 .term {
   font-weight: 200 !important;
 }
+
 .term__enter {
   margin: 0 !important;
   font-weight: 600 !important;
@@ -118,6 +128,7 @@ a:hover {
   background-size: cover;
   position: relative;
 }
+
 .scroll-first ul.link__language {
   position: absolute;
   top: 0;
@@ -155,6 +166,7 @@ a:hover {
   width: 65%;
   padding: 0 15px;
 }
+
 .text__wrapper p {
   font-size: 57px;
   font-family: "Inter";
@@ -164,6 +176,7 @@ a:hover {
   padding: 0 2px;
   text-align: center;
 }
+
 .text__wrapper {
   position: sticky;
 }
@@ -199,6 +212,7 @@ a:hover {
   width: 100%;
   text-align: center;
 }
+
 .six .links__social {
   margin: 0;
   padding-top: 15px;
@@ -207,6 +221,7 @@ a:hover {
 .six .links__social svg {
   width: 30px;
 }
+
 .six .links__social {
   position: absolute;
   bottom: 15px;
@@ -216,6 +231,7 @@ a:hover {
   width: 90%;
   border-top: 1px dashed #966868;
 }
+
 .six .links__social p {
   color: #966868;
   text-align: center;
@@ -223,13 +239,15 @@ a:hover {
   font-size: 15px;
   margin-right: 15px;
 }
+
 .six .links__social span {
   color: #966868;
   text-align: center;
   font-family: "PPEditorialNew";
   font-size: 15px;
 }
-.six .links__social > div {
+
+.six .links__social>div {
   display: flex;
   align-items: center;
 }
@@ -247,6 +265,7 @@ a:hover {
   position: absolute;
   left: 0;
 }
+
 .image__group {
   position: absolute;
   top: -350px;
@@ -254,6 +273,7 @@ a:hover {
   width: 700px;
   min-height: 100vh;
 }
+
 .image__underground__mobile {
   position: absolute;
   top: 0;
@@ -271,6 +291,7 @@ a:hover {
 .contato_page {
   color: #fff !important;
 }
+
 .contato_page svg {
   fill: #fff !important;
 }
@@ -294,6 +315,7 @@ a:hover {
   width: 380px;
   position: absolute;
 }
+
 .contato__page__mail {
   font-size: 30px !important;
   font-weight: 400;
@@ -347,6 +369,7 @@ a:hover {
 .links__social a {
   margin: 0 10px;
 }
+
 .links__social {
   margin-left: 15px;
 }
@@ -400,6 +423,7 @@ a:hover {
   width: 56px;
   height: 40px;
 }
+
 .image_spotify {
   width: 40px;
   height: 40px;
@@ -439,6 +463,7 @@ a:hover {
     color: #966868 !important;
     cursor: pointer;
   }
+
   .episode:hover svg path {
     fill: #966868 !important;
     cursor: pointer;
@@ -501,6 +526,7 @@ a:hover {
   position: absolute;
   right: 300px;
 }
+
 .episode-duration {
   color: #966868;
   position: absolute;
@@ -512,12 +538,14 @@ a:hover {
   align-items: center;
   gap: 5px;
 }
+
 .episode-icons svg {
   color: #966868;
   fill: #966868;
   width: 35px;
   height: 35px;
 }
+
 .icon__spotify {
   width: 30px !important;
   height: 30px !important;
@@ -548,6 +576,7 @@ ul.link__six li {
 .podcast__link {
   padding-left: 0px;
 }
+
 .contact_link {
   padding-right: 75px;
 }
@@ -566,6 +595,7 @@ ul.link__six li a {
   margin: 0 5px;
   color: #966868;
 }
+
 .second,
 .third,
 .third-third,
@@ -574,6 +604,7 @@ ul.link__six li a {
 .six {
   position: relative;
 }
+
 .six .links__social ul li a {
   display: flex;
   align-items: center;
@@ -582,6 +613,7 @@ ul.link__six li a {
   text-transform: uppercase;
   margin: 0;
 }
+
 .six .links__social ul {
   display: none;
   list-style-type: none;
@@ -603,18 +635,23 @@ ul.link__six li a {
 .six .links__social ul li {
   margin: 0 0 15px 0;
 }
+
 .six .links__social ul li a img {
   margin-right: 5px;
 }
+
 .six .links__social span {
   position: relative;
 }
+
 .six .links__social span:hover ul {
   display: block;
 }
+
 .page__mobile {
   display: none;
 }
+
 header.header {
   display: flex;
   align-items: center;
@@ -627,14 +664,17 @@ header.header {
 header.header img {
   max-width: 100px;
 }
+
 header.header .top__info {
   position: relative;
   top: 0;
 }
+
 header.header .top__info p {
   color: #5d85c1;
   font-size: 20px;
 }
+
 header.header .top__info span {
   margin: 0;
 }
@@ -644,6 +684,7 @@ header.header .top__info {
   align-items: center;
   justify-content: center;
 }
+
 ul.link__language {
   list-style-type: none;
   display: flex;
@@ -651,11 +692,13 @@ ul.link__language {
   margin: 0;
   padding: 0;
 }
+
 ul.link__language li a {
   color: #5d85c1;
   font-size: 22px;
   margin: 0 5px;
 }
+
 header.header h1 {
   margin: 0;
 }
@@ -664,6 +707,7 @@ header.header .links__social svg {
   width: 30px;
   height: 30px;
 }
+
 .page-template-manifesto,
 .page-template-manifesten {
   background: url("./imgs/bgmanifest.png");
@@ -671,6 +715,7 @@ header.header .links__social svg {
   background-repeat: no-repeat;
   background-position: top;
 }
+
 .page-template-fabricio,
 .page-template-fabricioen {
   background: url("./imgs/bgmanifest.png");
@@ -678,6 +723,7 @@ header.header .links__social svg {
   background-repeat: no-repeat;
   background-position: center;
 }
+
 .page-template-termos,
 .page-template-termosen {
   background: url("./imgs/bgmanifest.png");
@@ -686,6 +732,7 @@ header.header .links__social svg {
   background-position: center;
   background-attachment: fixed;
 }
+
 section.manifest__first {
   padding: 0 105px;
   display: flex;
@@ -702,12 +749,14 @@ section.manifest__first {
   margin: 130px 0 0 0;
   text-align: center;
 }
-.manifest__first > span {
+
+.manifest__first>span {
   font-size: 40px;
   color: #5d85c1;
   text-align: center;
 }
-.manifest__first > span strong {
+
+.manifest__first>span strong {
   font-family: "Inter";
   font-size: 80px;
   display: block;
@@ -717,6 +766,7 @@ section.manifest__first {
 .lateral__info img {
   max-width: 60px;
 }
+
 .lateral__info {
   position: absolute;
   left: 15px;
@@ -733,9 +783,11 @@ section.manifest__first.three p {
   margin: 15px 0;
   width: 100%;
 }
+
 section.manifest__first.three p span {
   color: #5d85c1;
 }
+
 section.manifest__first.three {
   max-width: 1390px;
   margin-bottom: 50px;
@@ -755,10 +807,12 @@ a.topbutton {
   width: 50px;
   height: 50px;
 }
+
 a.backbutton img,
 a.topbutton img {
   max-width: 50px;
 }
+
 a.topbutton img {
   transform: rotate(90deg);
 }
@@ -776,6 +830,7 @@ a.topbutton img {
 .footer .links__social svg {
   width: 40px;
 }
+
 .footer .links__social {
   display: flex;
   align-items: flex-end;
@@ -784,6 +839,7 @@ a.topbutton img {
   border-top: 1px dashed #966868;
   padding-top: 75px;
 }
+
 .footer p {
   color: #966868;
   font-family: "PPEditorialNew";
@@ -792,6 +848,7 @@ a.topbutton img {
   text-align: right;
   margin-top: 40px;
 }
+
 .footer .links__social span {
   color: #966868;
   text-align: center;
@@ -814,6 +871,7 @@ a.topbutton img {
   text-align: left;
   width: 195px;
 }
+
 .footer .links__social span:hover ul {
   display: block;
 }
@@ -830,9 +888,11 @@ a.topbutton img {
   text-transform: uppercase;
   margin: 0;
 }
+
 .footer {
   background: #fff;
 }
+
 .footer .links__social span ul li a img {
   margin-right: 5px;
 }
@@ -874,9 +934,11 @@ ul.links__footer li a.inter {
   justify-content: space-between;
   width: 100%;
 }
+
 .mob {
   display: none;
 }
+
 img {
   max-width: 100%;
 }
@@ -884,6 +946,7 @@ img {
 header.header .links__social svg {
   fill: #5d85c1;
 }
+
 .fabricio__header {
   text-align: left;
   width: 100%;
@@ -891,9 +954,11 @@ header.header .links__social svg {
   margin: 50px auto;
   position: relative;
 }
+
 .fabricio__header h2.ppeditorlightitalic {
   text-align: left;
 }
+
 .fabricio__header strong {
   font-size: 107px;
   color: #5d85c1;
@@ -904,6 +969,7 @@ header.header .links__social svg {
   text-align: left;
   font-weight: 500;
 }
+
 .fabricio__header img {
   position: absolute;
   right: 0;
@@ -911,6 +977,7 @@ header.header .links__social svg {
   z-index: -1;
   max-width: 550px;
 }
+
 .fabricio__text {
   /* max-width: 900px !important; */
 }
@@ -924,7 +991,25 @@ header.header .links__social svg {
   width: 100%;
   justify-content: flex-end;
 }
+
 .fabricio__text span {
+  margin-top: 15px;
+  display: block;
+  margin-right: 5px;
+}
+
+
+section.manifest__first.three a {
+  font-size: 30px;
+  color: #000;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+section.manifest__first.three span {
   margin-top: 15px;
   display: block;
   margin-right: 5px;
@@ -934,12 +1019,14 @@ header.header .links__social svg {
   text-align: center;
   color: #000;
 }
+
 .page-template-termos .fabricio__header h2.ppeditorlightitalic,
 .page-template-termosen .fabricio__header h2.ppeditorlightitalic {
   color: #5d85c1;
   text-align: center;
   margin: 0;
 }
+
 .page-template-termos .fabricio__text {
   color: #5d85c1;
   text-align: center;
@@ -956,10 +1043,12 @@ header.header .links__social svg {
   text-align: center;
   color: #000;
 }
+
 .page-template-termosen .fabricio__header h2.ppeditorlightitalic {
   color: #5d85c1;
   text-align: center;
 }
+
 .page-template-termosen .fabricio__text {
   color: #5d85c1;
   text-align: center;
@@ -994,6 +1083,7 @@ header.header .links__social svg {
   text-align: justify;
   margin: 15px 0;
 }
+
 .page-template-termosen .manifest__first.three p a {
   display: initial;
 }
@@ -1020,6 +1110,7 @@ header.header .links__social svg {
   text-align: justify;
   margin: 15px 0;
 }
+
 .page-template-termos .manifest__first.three p a {
   display: initial;
 }
@@ -1033,6 +1124,7 @@ header.header .links__social svg {
   text-align: justify;
   margin: 15px 0;
 }
+
 .page-template-termosen .manifest__first.three p a {
   display: initial;
 }
@@ -1040,6 +1132,7 @@ header.header .links__social svg {
 section.contato {
   margin-top: -110px;
 }
+
 .page-template-contatoen header.header .top__info p,
 .page-template-contatoen ul.link__language li a,
 .page-template-contatoen header.header .links__social svg,
@@ -1057,6 +1150,7 @@ section.contato {
   margin: 0;
   cursor: pointer;
 }
+
 .video__container video {
   width: 100%;
   height: 100vh;
@@ -1079,18 +1173,18 @@ section.contato {
   padding: 0 15px;
 }
 
-.form__home > div > p {
+.form__home>div>p {
   font-size: 35px;
   color: #fff;
   line-height: 35px;
 }
 
-.form__home > div > span {
+.form__home>div>span {
   font-size: 19px;
   color: #fff;
 }
 
-.form__home > div:not(.wpcf7) {
+.form__home>div:not(.wpcf7) {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -1130,6 +1224,7 @@ section.contato {
   color: #5d85c1;
   padding-left: 15px;
 }
+
 .page-template-contatoen .form__home input.wpcf7-form-control {
   height: 40px;
   background: transparent;
@@ -1140,6 +1235,7 @@ section.contato {
   color: #5d85c1;
   padding-left: 15px;
 }
+
 .form__home input.wpcf7-form-control:focus {
   outline: 0;
 }
@@ -1149,20 +1245,21 @@ section.contato {
   text-transform: uppercase;
   color: #fff;
 }
+
 .footer .form__home input.wpcf7-form-control::placeholder {
   font-size: 12px;
   text-transform: uppercase;
   color: #966868;
 }
 
-.footer .form__home > div > p {
+.footer .form__home>div>p {
   font-size: 35px;
   color: #966868;
   line-height: 35px;
   text-align: left;
 }
 
-.footer .form__home > div span {
+.footer .form__home>div span {
   font-size: 19px;
   color: #966868;
 }
@@ -1173,14 +1270,14 @@ section.contato {
   color: #5d85c1;
 }
 
-.page-template-contato .form__home > div > p {
+.page-template-contato .form__home>div>p {
   font-size: 35px;
   color: #5d85c1;
   line-height: 35px;
   text-align: left;
 }
 
-.page-template-contato .form__home > div span {
+.page-template-contato .form__home>div span {
   font-size: 19px;
   color: #5d85c1;
 }
@@ -1195,14 +1292,14 @@ section.contato {
   color: #5d85c1;
 }
 
-.page-template-contatoen .form__home > div > p {
+.page-template-contatoen .form__home>div>p {
   font-size: 35px;
   color: #5d85c1;
   line-height: 35px;
   text-align: left;
 }
 
-.page-template-contatoen .form__home > div span {
+.page-template-contatoen .form__home>div span {
   font-size: 19px;
   color: #5d85c1;
 }
@@ -1242,6 +1339,7 @@ section.contato {
 .page-template-contato ul.links__footer li a {
   color: #5d85c1 !important;
 }
+
 .page-template-fabricio .footer .links__social svg,
 .page-template-fabricioen .footer .links__social svg,
 .page-template-contato .footer .links__social svg {
@@ -1283,12 +1381,14 @@ section.contato {
   position: relative;
   padding: 0 15px;
 }
+
 .wpcf7 {
   max-width: 100%;
   width: 100%;
   justify-content: center;
   display: flex;
 }
+
 .form__home form p:nth-child(2) {
   max-width: 140px;
 }
@@ -1321,6 +1421,7 @@ section.contato {
   width: 100%;
   cursor: pointer;
 }
+
 .form__home form input.wpcf7-form-control.wpcf7-submit.has-spinner {
   height: 45px;
   padding: 0;
@@ -1346,6 +1447,7 @@ span.wpcf7-spinner {
   text-align: center;
   line-height: 12px;
 }
+
 .video__container img {
   display: none;
 }
@@ -1386,13 +1488,16 @@ span.wpcf7-spinner {
   font-size: 55px;
   letter-spacing: -3px;
 }
+
 .footer__landing .form__home {
   margin-top: 5px;
   padding: 0;
 }
+
 .footer__landing .form__home form {
   margin-bottom: 0;
 }
+
 .footer__landing .form__home::before {
   display: none;
 }
@@ -1405,10 +1510,7 @@ span.wpcf7-spinner {
   text-transform: uppercase;
 }
 
-.footer__landing
-  .form__home
-  form
-  input.wpcf7-form-control.wpcf7-submit.has-spinner {
+.footer__landing .form__home form input.wpcf7-form-control.wpcf7-submit.has-spinner {
   height: 45px;
   padding: 0;
   background: #fff;
@@ -1422,12 +1524,11 @@ span.wpcf7-spinner {
   padding-right: 15px;
   background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAATCAMAAACjpw26AAAAP1BMVEUAAABgf79Yh79gf79gh79dhsJgg79dhb9dhcJchMFehMFehcFdhMFdhcBchsFdhsJehcFdhsFehcFehsFdhcGlvk1xAAAAFHRSTlMAECAgID9AYGB/f4CPn6Cvz9/f3wXKYloAAABQSURBVBjTrc3LDoAgDETRQfENWnX+/1vFaNDQLrmr5iymwJffHHT+pLSaheShvdlrez/8m/l6pC65xZxMjuXP8dZQ6vIsVFcnlqZWU4EuXxcIUQpoZ7jfnAAAAABJRU5ErkJggg==");
 }
-.footer__landing
-  .form__home
-  form
-  input.wpcf7-form-control.wpcf7-submit.has-spinner:hover {
+
+.footer__landing .form__home form input.wpcf7-form-control.wpcf7-submit.has-spinner:hover {
   opacity: 0.9;
 }
+
 .footer__landing .text__wrapper p {
   font-size: 34px;
   font-family: "Inter";
@@ -1441,6 +1542,7 @@ span.wpcf7-spinner {
 .footer__landing {
   padding-bottom: 25px;
 }
+
 .footer__landing .wpcf7-response-output {
   position: absolute;
   bottom: -23px;
@@ -1464,13 +1566,16 @@ span.wpcf7-spinner {
     line-height: 12px;
     width: 100%;
   }
+
   .footer__landing .form__home {
     margin-left: 0;
     width: 100%;
   }
+
   .landing-page {
     padding: 0 40px;
   }
+
   .header__landing p {
     font-size: 27px;
     letter-spacing: -1.5px;
@@ -1494,10 +1599,7 @@ span.wpcf7-spinner {
     text-align: right;
   }
 
-  .footer__landing
-    .form__home
-    form
-    input.wpcf7-form-control.wpcf7-submit.has-spinner {
+  .footer__landing .form__home form input.wpcf7-form-control.wpcf7-submit.has-spinner {
     width: 46%;
     height: 43px;
   }
@@ -1505,6 +1607,7 @@ span.wpcf7-spinner {
   .footer__landing .form__home form p:nth-child(4) {
     width: 100%;
   }
+
   .footer__landing .form__home form {
     padding-bottom: 15px;
   }
@@ -1513,15 +1616,13 @@ span.wpcf7-spinner {
     border: 1px solid #fff;
     height: 39px;
   }
+
   .form__home form input.wpcf7-form-control.wpcf7-submit.has-spinner {
     background: #fff;
     /* color: #5d85c1; */
   }
 
-  .form__home
-    .custom-contact-form
-    form
-    input.wpcf7-form-control.wpcf7-submit.has-spinner {
+  .form__home .custom-contact-form form input.wpcf7-form-control.wpcf7-submit.has-spinner {
     background: transparent !important;
     color: #fff !important;
   }
@@ -1535,22 +1636,27 @@ span.wpcf7-spinner {
     padding: 0;
     width: 100%;
   }
-  .footer .form__home > div > p {
+
+  .footer .form__home>div>p {
     text-align: center;
   }
-  .form__home > div > span {
+
+  .form__home>div>span {
     margin-top: 10px;
     font-size: 15px;
   }
-  .form__home > div:not(.wpcf7) {
+
+  .form__home>div:not(.wpcf7) {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
   }
+
   .form__home {
     width: 80%;
     margin-left: -20px;
   }
+
   .form__home form p:nth-child(2) {
     max-width: 100%;
     width: 100%;
@@ -1574,6 +1680,7 @@ span.wpcf7-spinner {
     max-width: 100%;
     width: 100%;
   }
+
   .form__home form p label,
   .form__home form p span,
   .form__home form p input {
@@ -1584,33 +1691,40 @@ span.wpcf7-spinner {
   .form__home form {
     flex-wrap: wrap;
   }
+
   .form__home form p:nth-child(5) {
     width: 60%;
     margin: 10px auto;
   }
+
   .form__home form p {
     width: 100%;
     max-width: 100% !important;
     margin: 10px 0 0 -10px;
   }
+
   .six .links__social p {
     margin-right: 0;
     margin-bottom: 0px;
   }
-  .six .links__social > div {
+
+  .six .links__social>div {
     flex-wrap: wrap;
     justify-content: center;
     margin: 30px 0;
   }
+
   .six .links__social {
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
     bottom: -30px;
   }
+
   .six {
     flex-wrap: wrap;
   }
+
   .six .links__social {
     position: relative;
   }
@@ -1622,9 +1736,11 @@ span.wpcf7-spinner {
   ul.link__six li img {
     max-width: 25px;
   }
+
   ul.link__six li {
     text-align: center;
   }
+
   /* .six .links__social ul {
     width: 130%;
   } */
@@ -1633,15 +1749,18 @@ span.wpcf7-spinner {
     max-width: 100%;
     padding: 0 15px;
   }
+
   .four .minus__p {
     font-size: 19px !important;
     margin: 15px auto !important;
     text-align: center;
     max-width: 100%;
   }
+
   .four .text__wrapper p {
     font-size: 25px;
   }
+
   .scroll-first.third-third .text__wrapper p {
     font-size: 44px;
     font-family: "Inter";
@@ -1652,21 +1771,25 @@ span.wpcf7-spinner {
     padding: 0 15px;
     line-height: 49px;
   }
+
   .third .text__wrapper p {
     font-size: 32px;
     margin: 0 auto;
     text-align: center;
     padding: 0 25px;
   }
+
   .third .text__wrapper p br {
     display: none;
   }
+
   .text__wrapper.second strong {
     display: block;
     text-align: center;
     font-size: 90px;
     font-weight: 500;
   }
+
   .second .text__wrapper p {
     font-size: 40px;
     font-family: "Inter";
@@ -1675,31 +1798,38 @@ span.wpcf7-spinner {
     color: #fff;
     text-align: center;
   }
+
   .top__info,
   .bottom__info {
     display: none;
   }
+
   .links__social svg {
     width: 40px;
     height: 40px;
   }
+
   .scroll-first.first {
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
   }
+
   .scroll-first.first .text__wrapper p {
     font-size: 21px;
     padding: 0 15px;
     margin-bottom: 15px;
   }
+
   section.contato {
     margin-top: -140px;
   }
+
   .mob {
     display: block;
     z-index: 999;
   }
+
   .desk,
   .image__group {
     display: none;
@@ -1724,6 +1854,7 @@ span.wpcf7-spinner {
   .contato__page__mail {
     font-size: 20px !important;
   }
+
   .spacing {
     letter-spacing: -1px;
   }
@@ -1732,9 +1863,11 @@ span.wpcf7-spinner {
   .image__underground__mobile {
     display: block !important;
   }
+
   .page__desk {
     display: none;
   }
+
   .page__mobile {
     display: flex;
     align-items: center;
@@ -1745,6 +1878,7 @@ span.wpcf7-spinner {
     line-height: 0.8;
     width: 85%;
   }
+
   .by__mobile {
     margin-left: 5px;
   }
@@ -1762,11 +1896,11 @@ span.wpcf7-spinner {
     margin: 0;
   }
 
-  .manifest__first > span {
+  .manifest__first>span {
     font-size: 17px;
   }
 
-  .manifest__first > span strong {
+  .manifest__first>span strong {
     font-size: 34px;
   }
 
@@ -1783,15 +1917,18 @@ span.wpcf7-spinner {
     background-size: cover;
     background-repeat: no-repeat;
   }
+
   .page-template-termos,
   .page-template-termosen {
     background: url("./imgs/bgmanifestmob.png");
     background-size: cover;
     background-repeat: no-repeat;
   }
+
   .fabricio__header h2.ppeditorlightitalic {
     text-align: center;
   }
+
   .fabricio__header strong {
     font-size: 45px;
     color: #5d85c1;
@@ -1801,6 +1938,7 @@ span.wpcf7-spinner {
     display: block;
     text-align: center;
   }
+
   .page-template-manifesten header.header .top__info p,
   .page-template-manifesto header.header .top__info p,
   .page-template-fabricio header.header .top__info p,
@@ -1814,6 +1952,7 @@ span.wpcf7-spinner {
     color: #fff;
     fill: #fff;
   }
+
   .page-template-manifesten header.header .top__info p,
   .page-template-manifesto header.header .top__info p,
   .page-template-fabricio header.header .top__info p,
@@ -1826,18 +1965,22 @@ span.wpcf7-spinner {
     align-items: center;
     line-height: 14px;
   }
+
   .top__info p span.ppeditorlightitalic {
     text-transform: none;
     margin-left: 5px;
   }
+
   .fabricio__header img {
     position: relative;
     max-width: 100%;
     margin-top: -13px;
   }
+
   .page-template-fabricio .fabricio__header {
     margin: 0px auto;
   }
+
   header.header .links__social {
     margin-left: 0;
     display: flex;
@@ -1846,10 +1989,12 @@ span.wpcf7-spinner {
     right: 50px;
     gap: 5px;
   }
+
   header.header .links__social a {
     margin-left: 5px;
     margin-right: 0;
   }
+
   header.header .links__social svg {
     fill: #fff;
     width: 15px;
@@ -1866,6 +2011,7 @@ span.wpcf7-spinner {
     display: flex;
     justify-content: space-between;
   }
+
   a.topbutton img {
     max-width: 30px;
   }
@@ -1874,15 +2020,19 @@ span.wpcf7-spinner {
     margin: 30px 0px 0px 0px;
     padding: 15px 25px;
   }
+
   section.manifest__first .mob {
     margin-bottom: 25px;
   }
+
   section.manifest__first.three p {
     font-size: 19px;
   }
+
   section.manifest__first.second {
     margin-top: 10px;
   }
+
   section.manifest__first.three p span {
     font-size: 18px;
   }
@@ -1890,11 +2040,12 @@ span.wpcf7-spinner {
   .footer .links__social {
     flex-wrap: wrap;
   }
+
   ul.links__footer {
     margin-bottom: 30px;
   }
 
-  .footer > p {
+  .footer>p {
     color: #966868;
     font-family: "PPEditorialNew";
     font-size: 15px;
@@ -1904,6 +2055,7 @@ span.wpcf7-spinner {
     border-top: 1px dashed #966868;
     padding-top: 30px;
   }
+
   .footer .links__social {
     padding-top: 30px;
   }
@@ -1917,6 +2069,7 @@ span.wpcf7-spinner {
     bottom: 10px;
     top: 35px;
   }
+
   /* .topbutton {
     right: 15px !important;
     bottom: 10px !important;
@@ -1938,6 +2091,7 @@ span.wpcf7-spinner {
     text-align: initial;
     margin: 15px 0;
   }
+
   .page-template-termosen .manifest__first.three ul {
     font-family: "Inter";
     color: #000;
@@ -1947,21 +2101,27 @@ span.wpcf7-spinner {
     text-align: initial;
     margin: 15px 0;
   }
+
   .page-template-termos .manifest__first.three .ppeditorlightitalic {
     font-size: 36px;
   }
+
   .term {
     font-size: 26px !important;
   }
+
   .term__enter {
     font-size: 26px !important;
   }
+
   .page-template-termosen .manifest__first.three .ppeditorlightitalic {
     font-size: 36px;
   }
+
   .scroll-first ul.link__language {
     display: flex;
   }
+
   .footer .links__social svg {
     width: 25px;
     height: 25px;
@@ -2057,6 +2217,7 @@ span.wpcf7-spinner {
     flex-direction: row;
     flex-direction: row-reverse;
   }
+
   .manifest__link,
   .podcast__link,
   .contact_link {
@@ -2089,6 +2250,7 @@ span.wpcf7-spinner {
     max-width: 100% !important;
     padding: 60px 0 !important;
   }
+
   ul.link__language li a {
     font-size: 15px;
   }
@@ -2096,6 +2258,7 @@ span.wpcf7-spinner {
   .podcast__link {
     padding-left: 0px;
   }
+
   .contact_link {
     padding-right: 0px;
   }
@@ -2116,9 +2279,11 @@ span.wpcf7-spinner {
     font-size: max(10px, 1vw);
     top: 20px;
   }
+
   .six .links__social span {
     left: 10px;
   }
+
   .six .links__social p {
     right: 10px;
     text-transform: uppercase;
@@ -2129,6 +2294,7 @@ span.wpcf7-spinner {
   .scroll-first.four {
     background: url("./imgs/podcast_background_mobile.jpg") !important;
   }
+
   .scroll-first.five {
     background: url("./imgs/background_news.png") !important;
   }
@@ -2168,9 +2334,11 @@ span.wpcf7-spinner {
   .second .text__wrapper p {
     font-size: 28px;
   }
+
   .text__wrapper.second strong {
     font-size: 63px;
   }
+
   .welcome {
     font-size: 31px;
     font-family: "Inter";
@@ -2189,6 +2357,7 @@ span.wpcf7-spinner {
   .video__container video {
     display: none;
   }
+
   .video__container img {
     display: block;
     width: 100%;
@@ -2196,9 +2365,11 @@ span.wpcf7-spinner {
     display: block;
     object-fit: cover;
   }
+
   header.header .top__info {
     width: 87%;
   }
+
   .page-template-manifesto header.header .top__info p,
   .page-template-manifesten header.header .top__info p {
     font-size: 12px;
@@ -2209,6 +2380,7 @@ span.wpcf7-spinner {
     background-size: cover !important;
     background-position: center !important;
   }
+
   .scroll-first.first,
   .scroll-first.second,
   .scroll-first.third-third {
@@ -2218,8 +2390,7 @@ span.wpcf7-spinner {
   }
 
   .scroll-first.four {
-    background: url("./imgs/podcast_background_mobile.jpg") no-repeat center
-      center !important;
+    background: url("./imgs/podcast_background_mobile.jpg") no-repeat center center !important;
     background-size: cover !important;
   }
 
@@ -2229,6 +2400,7 @@ span.wpcf7-spinner {
     background-position: center !important;
     overflow: hidden;
   }
+
   .page-template-termos,
   .page-template-termosen {
     background: url("./imgs/bgmanifestmob.png");
@@ -2239,6 +2411,7 @@ span.wpcf7-spinner {
   .fabricio__text {
     margin-top: -40px !important;
   }
+
   section.contato .mob img {
     width: 100%;
     object-fit: cover;
@@ -2261,13 +2434,16 @@ span.wpcf7-spinner {
   .four .text__wrapper {
     padding: 0 15px;
   }
+
   .episode-date,
   .episode-duration {
     margin-top: 60px !important;
   }
+
   .episode-duration {
     left: 70px !important;
   }
+
   .episode-date {
     left: 5px !important;
   }
@@ -2279,6 +2455,7 @@ span.wpcf7-spinner {
 }
 
 @media (max-width: 750px) {
+
   .episode-date,
   .episode-duration {
     margin-top: 42px;
@@ -2293,13 +2470,16 @@ span.wpcf7-spinner {
     width: 28px;
     height: 20px;
   }
+
   .image_spotify {
     width: 20px;
     height: 20px;
   }
+
   .form__content {
     width: 100%;
   }
+
   .form__home form {
     margin-bottom: 5px;
   }
@@ -2352,14 +2532,17 @@ span.wpcf7-spinner {
     margin-bottom: 10px;
   }
 }
+
 @media (min-width: 992px) {
   .five .minus__p {
     font-size: 22px !important;
     margin-top: 50px !important;
   }
+
   .form__home {
     position: relative;
   }
+
   header.header .links__social a {
     margin: 0;
   }
