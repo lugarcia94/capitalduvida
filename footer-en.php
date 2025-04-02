@@ -39,17 +39,16 @@
                 <li><a href="/en/#podcast" class="inter podcast_link">PODCAST</a></li>
             </ul>
             <ul class="links__footer">
-                <li><a href="/#news" class="ppeditorlightitalic">NEWSLETTER</a></li>
+                <li><a href="/en/#news" class="ppeditorlightitalic">NEWSLETTER</a></li>
                 <li><a href="/contato" class="inter">CONTACT</a></li>
                 <li><a href="/terms-and-conditions" class="ppeditorlightitalic">TERMS</a></li>
             </ul>
         </div>
         <span>IMAGE CREDITS
             <ul>
-                <li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/imgs/mini.png" />@loremimpsu</a></li>
-                <li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/imgs/mini.png" />@loremimpsu</a></li>
-                <li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/imgs/mini.png" />@loremimpsu</a></li>
-                <li><a href="#"><img src="<?php bloginfo('template_directory'); ?>/imgs/mini.png" />@loremimpsu</a></li>
+                <li><a href="#"><img src="https://w57.199.myftpupload.com/wp-content/uploads/2025/04/rogerio.png" />@rogerio_mesquita</a></li>
+                <li><a href="#"><img src="https://w57.199.myftpupload.com/wp-content/uploads/2025/04/rogerio2.png" />@rogerio_mesquita</a></li>
+                <li><a href="#"><img src="https://w57.199.myftpupload.com/wp-content/uploads/2025/04/superhuman4.png" />Superhuman collection</a></li> 
             </ul>
         </span>
         <div>

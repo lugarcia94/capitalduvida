@@ -18,8 +18,8 @@ get_header('en'); ?>
 </section>
 
 <section class="manifest__first second">
-    <img class="desk" src="https://w57.199.myftpupload.com/wp-content/uploads/2025/03/manifestimage.png" />
-    <img class="mob" src="<?php bloginfo('template_directory'); ?>/imgs/manifestimagemob.png" />
+    <img class="desk" src="https://w57.199.myftpupload.com/wp-content/uploads/2025/04/manifesto_desktop.jpg" />
+    <img class="mob" src="https://w57.199.myftpupload.com/wp-content/uploads/2025/04/manifesto_mobile.png" />
 </section>
 
 <section class="manifest__first three">
@@ -45,7 +45,6 @@ get_header('en'); ?>
 
     <p><span><strong>Welcome.</strong> Capital da Dúvida <span class="ppeditorlightitalic">the place</span> where questions led the way.</span></p>
     <p>Because more often than not, it all starts with a single "what if”.</p>
-    <a href="https://www.linkedin.com/in/guimaraesfabricio/" target="_blank" class="ppeditorlightitalic"><span>Linkedin -</span> <img class="linkedin" src="<?php bloginfo('template_directory'); ?>/imgs/linkedin.png" /></a>
 </section>
 
 <?php include 'backbutton.php'; ?>
