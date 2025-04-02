@@ -325,6 +325,13 @@ a:hover {
   z-index: 10;
 }
 
+.contato__page__mail a {
+  font-size: 30px !important;
+  font-weight: 400;
+  text-decoration: none;
+  color: #fff;
+}
+
 .header__info p {
   margin-left: 45px;
 }
@@ -872,7 +879,9 @@ a.topbutton img {
   width: 195px;
 }
 
-.footer .links__social span:hover ul {
+.footer .links__social span:hover ul,
+.footer .links__social span:focus ul,
+.footer .links__social span:active ul {
   display: block;
 }
 
