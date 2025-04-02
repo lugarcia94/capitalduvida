@@ -16,7 +16,7 @@ get_header('en'); ?>
   <div class="fabricio__header">
     <h2 class="ppeditorlightitalic">Fabrício</h2>
     <span class="ppeditorlightitalic"><strong>Guimarães</strong></span>
-    <img src="<?php bloginfo('template_directory'); ?>/imgs/fabricio.png" />
+    <img src="https://w57.199.myftpupload.com/wp-content/uploads/2025/04/Faba_site_desk.png" />
   </div>
 </section>
 
