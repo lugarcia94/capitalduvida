@@ -45,7 +45,7 @@
             </ul>
         </div>
         <span>IMAGE CREDITS
-            <ul>
+            <ul class="credits">
                 <li><a href="#"><img src="https://w57.199.myftpupload.com/wp-content/uploads/2025/04/rogerio.png" />@rogerio_mesquita</a></li>
                 <li><a href="#"><img src="https://w57.199.myftpupload.com/wp-content/uploads/2025/04/rogerio2.png" />@rogerio_mesquita</a></li>
                 <li><a href="#"><img src="https://w57.199.myftpupload.com/wp-content/uploads/2025/04/superhuman4.png" />Superhuman collection</a></li> 
@@ -218,6 +218,20 @@
                 });
             });
         }
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const socialLinks = document.querySelectorAll(".links__social span");
+
+        socialLinks.forEach((link) => {
+            link.addEventListener("mouseenter", function () {
+                link.classList.add("hovered");
+            });
+
+            link.addEventListener("mouseleave", function () {
+                link.classList.remove("hovered");
+            });
+        });
     });
 </script>
 </div>

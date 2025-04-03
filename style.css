@@ -879,11 +879,24 @@ a.topbutton img {
   width: 195px;
 }
 
+#menu_info .links__social span:hover ul {
+  display: block;
+}
+
 .footer .links__social span:hover ul,
 .footer .links__social span:focus ul,
 .footer .links__social span:active ul {
   display: block;
 }
+
+.footer .links__social span.hovered ul {
+  display: block;
+}
+
+#menu_info .links__social span.hovered ul {
+  display: block;
+}
+
 
 .footer .links__social span ul li {
   margin: 0 0 15px 0;
@@ -2329,9 +2342,18 @@ span.wpcf7-spinner {
     line-height: 0.8;
   }
 
+  .contato__page__by {
+    margin-left: 110px;
+  }
+
+  .contato__page__mail a {
+    font-size: 20px !important;
+  }
+
   .contato__title {
-    font-size: 77px;
+    font-size: 56px;
     top: 5% !important;
+    padding-top: 17px;
   }
 
   .page-template-contatoen footer.footer,
